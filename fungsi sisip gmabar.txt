@@ -1,8 +1,0 @@
-Function SISIP_GAMBAR(picturePath As String) As String
-    Dim ws As Worksheet
-    Dim cell As Range
-    
-    'memasukkan gambar
-    Selection.InsertPictureInCell (picturePath)
-
-End Function
